@@ -51,6 +51,10 @@
       "value": "15",
       "required": false
     },
+    "USE_SERVICE_ACCOUNTS": {
+        "description": "Whether to use Service Accounts or not. For this to work see 'Using Service Accounts' in repo.",
+        "required": false
+      },
     "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
       "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
       "required": false
